@@ -23,19 +23,17 @@ body {
 .top-showcase {
 /*    background-color: #fff;*/
 /*    border:1px solid red;*/
-/*    width:759px;*/
+    width:759px;
     height:150px;
     margin:0 auto;
     padding:0px 25px 0px 25px;
     font-size:70px;
     align-content:space-between; 
-/*    flex-wrap: nowrap;*/
 }
 
 .mid-container img {
     position:absolute;
     top:70px;
-    left:525px;
 }
 
 .mid-container,
