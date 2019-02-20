@@ -40,8 +40,11 @@ body {
     margin:0 auto;
     padding:0px 25px 0px 25px;
     font-size:70px;
-    overflow-x:scroll;
     letter-spacing: 22px;
+}
+
+.overflow {
+    overflow-x:scroll;
 }
 
 .mid-container,
@@ -240,7 +243,7 @@ h2 {
     font-size:10px;
     width:438px;
     height:114px;
-    padding: 20px 56px 5px 28px;
+    padding: 20px 5px 5px 28px;
     margin-bottom:5.1px;
 }
 
