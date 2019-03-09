@@ -1,0 +1,117 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    justify-content: center;
+}
+
+a {
+    
+}
+
+a:hover {
+    
+}
+
+a:visited {
+    
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family:'Fredericka the Great', cursive;
+/*    font-family: 'Raleway', sans-serif;*/
+    color:black;
+    margin:0 auto;
+}
+
+.page-container {
+    display:flex
+}
+
+.left-container {
+  width:458px;
+  height: 1024px;
+  background-color: azure;
+}
+
+.title-container {
+    width:239px;
+    height: 73px;
+    background-color: orange; 
+    margin:40px 42px 31px 30px;
+}
+
+.reminder-button {
+    width:173px;
+    height:44px;
+    background-color: yellow; 
+    margin:0px 108px 136px 30px;
+}
+
+.fraction-goal {
+    width:173px;
+    height:212px;
+    background-color: plum;
+    margin:0px 108px 27px 30px;
+}
+
+.submit-button {
+    width:173px;
+    height:44px;
+    background-color: lightpink;
+    margin:0px 108px 0px 30px;
+}
+
+.right-container {
+  width:458px;
+  height: 1024px;
+  background-color: orange;
+}
+
+.home-button{
+    width:52px;
+    height:52px;
+    background-color: palevioletred;
+    margin-left:393px;
+}
+
+.level-image {
+    width:349px;
+    height:692px;
+    background-color: cyan;
+    margin: 0px 72px 44px 38px;
+}
+
+.basket-image {
+    width:349px;
+    height:168px;
+    background-color: greenyellow;
+    margin: 0px 72px 57px 38px;
+}
+
+.modal-content {
+    visibility: hidden;
+    z-index:100px;
+    width:497px;
+    height:531px;
+    background-color:#CBF5F7;
+    position:absolute;
+    margin:209px 135px 284px 136px;
+}
+
+.modal-content h1 {
+    width:417px;
+    height:92px;
+    background-color:lightgoldenrodyellow;
+    align-items: center;
+    margin: 43px 40px 396px 40px;
+}
+
+.no-flex-content {
+    margin-right:10px;
+}
+
+.visible {
+    visibility: visible !important;
+}
