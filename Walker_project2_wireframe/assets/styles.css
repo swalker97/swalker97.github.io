@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+a {
+     color: black;
+     text-decoration:none;
+
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:visited {
+    
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family:'Fredericka the Great', cursive;
+/*    font-family: 'Raleway', sans-serif;*/
+    color:black;
+}
+
+.page-container {
+    background-color: lightgoldenrodyellow;
+}
+
+.title-container,
+.mid-container,
+.bottom-container {
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.title-container {
+    background-color: azure;
+    width:689px;
+    height:130px;
+}
+
+.mid-container {
+    background-color: orange;
+    width:569px;
+    height:668px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.bottom-container {
+    background-color: plum;
+    width:261px;
+    height:80px;
+}

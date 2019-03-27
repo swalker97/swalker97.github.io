@@ -1,0 +1,193 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+    <title>Level One</title>
+    <link href="https://fonts.googleapis.com/css?family=Short+Stack" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="assets/game_one_styles.css">
+</head>
+    
+    <body>
+        <div class="title-container">
+                <h1>Level One</h1>
+            <div class="home-button">
+                    <a href="index.html"><img src="assets/illustrations/home_button.svg"/></a>
+                </div>
+            </div>
+    <div class="page-container">
+    
+        <div class="left-container">
+            
+            <div id="task-reminder" class="reminder-button pine" >
+                <h3>Remind me of my task!</h3>
+            </div>
+            
+            <div class="fraction-goal">
+                
+                <div id="jordan">                <img src="assets/illustrations/hintboard.svg"/></div>
+                
+
+                <div id="hint-2"><img  src="assets/illustrations/hintpine.svg"/></div>
+            </div>
+            
+            <div class="submit-button pine" id="submit-answer">
+                <h3>Check Answer!</h3>
+        </div>
+        </div>
+        
+        <div class="right-container">
+            
+        <div class="pine-pieces">
+            <div class="leaf-one">
+            <img src="assets/illustrations/pineleaf.svg" width="30%"/>
+            </div>
+            
+            <div class="pine-one pine" id="click-1">
+                <img src="assets/illustrations/pineone.svg" width=20%/>
+            </div>
+            
+            <div class="pine-two pine" id="click-2">
+                <img src="assets/illustrations/pinetwo.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-three pine" id="click-3">
+                <img src="assets/illustrations/pinethree.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-four pine" id="click-4">
+                <img src="assets/illustrations/pinefour.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-five pine" id="click-5">
+                <img src="assets/illustrations/pinefive.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-six pine" id="click-6">
+                <img src="assets/illustrations/pinesix.svg" width="20%"/>
+            </div>
+            
+            <div class="leaf-two">
+            <img src="assets/illustrations/pineleaf.svg" width="30%"/>
+            </div>
+            
+            <div class="pine-seven pine" id="click-7">
+                <img src="assets/illustrations/pineseven.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-eight pine" id="click-8">
+                <img src="assets/illustrations/pinetwo.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-nine pine" id="click-9">
+                <img src="assets/illustrations/pinethree.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-ten pine" id="click-10">
+                <img src="assets/illustrations/pinefour.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-eleven pine" id="click-11">
+                <img src="assets/illustrations/pinefive.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-twelve pine" id="click-here">
+                <img src="assets/illustrations/pinesix.svg" width="20%"/>
+            </div>
+
+        </div>
+            
+        <div class="basket-image">
+            <div class="pine-twelve" id="sun">
+                <img src="assets/illustrations/pinesix.svg" width="20%"/>
+            </div>
+            
+              <div class="pine-one" id="show-1">
+                <img src="assets/illustrations/pineone.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-two" id="show-2">
+                <img src="assets/illustrations/pinetwo.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-three" id="show-3">
+                <img src="assets/illustrations/pinethree.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-four" id="show-4">
+                <img src="assets/illustrations/pinefour.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-five" id="show-5">
+                <img src="assets/illustrations/pinefive.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-six" id="show-6">
+                <img src="assets/illustrations/pinesix.svg" width="20%"/>
+            </div>
+        
+            
+            <div class="pine-seven" id="show-7">
+                <img src="assets/illustrations/pineseven.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-eight" id="show-8">
+                <img src="assets/illustrations/pinetwo.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-nine" id="show-9">
+                <img src="assets/illustrations/pinethree.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-ten" id="show-10">
+                <img src="assets/illustrations/pinefour.svg" width="20%"/>
+            </div>
+            
+            <div class="pine-eleven" id="show-11">
+                <img src="assets/illustrations/pinefive.svg" width="20%"/>
+            </div>
+            
+            <div class="emptybowl">
+            <img src="assets/illustrations/emptypinebowl.svg" width="120%">
+            </div>
+        </div>
+        </div>
+            
+<!--        This is modal content-->
+    <div class="overlay"></div>
+            <div class="modal-content" id="task-reminder-modal">
+                <div class="no-flex-content">
+                <span class="close" id="task-reminder-close">&times;</span>
+                    <h1>Task</h1>
+                    <p>Hi there! One 
+                    pineapple has 6 
+                    pieces. I need to 
+                    bring 1 and 1/6 of
+                    pineapple to the 
+                    luau, can you 
+                    help me?</p>
+                </div>
+            </div>
+            <div class="modal-content" id="submit-answer-modal">
+                <div class="no-flex-content">
+                <span class="close" id="submit-close">&times;</span>
+                    <h1>Sample Answer</h1>
+                    <img src="assets/illustrations/samplepine.svg"/>
+                        <div class="retry"><a href="game_one.html" role="button">Try Again</a>
+                        </div>
+                        <div class="next-button">
+                            <a href="level-two-intro.html" role="button">Next Level</a>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    
+    
+        
+    
+    </body>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="test-js/test-popup.js"></script>
+    
+</html>
