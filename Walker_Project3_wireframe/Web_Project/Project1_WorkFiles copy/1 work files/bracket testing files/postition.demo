@@ -1,0 +1,17 @@
+<div class="bottom-section flexy-box">
+    <div class="sources">
+        <h3>Sources</h3>
+        <p>source 1</p>
+        <p>source 2</p>
+        <p>source 3</p>
+    </div>
+    <div class="photo-info flexy-box">
+        <img src="assets/Sam-photo.jpg">
+        <div class="info">
+            <h3>Sam N Walker</h3>
+            <h4>Student Accounting Design</h4>
+        </div>
+    </div>
+    
+    
+</div>

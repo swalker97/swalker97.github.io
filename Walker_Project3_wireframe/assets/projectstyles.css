@@ -1,0 +1,73 @@
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+
+* {
+    margin:0 auto;
+}
+
+h1 {
+    font-size:36px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+h3,
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-size:18px;
+    padding:2px;
+}
+
+p {
+    font-size:14px;
+}
+
+.left-container {
+    background-color: aqua;
+    padding:15px;
+    width:65%;
+    margin-bottom:80px
+}
+
+.client {
+    padding-top:16px;
+}
+
+.course {
+    padding-bottom:30px;
+}
+
+.web-right-container {
+    background-color: mediumpurple;
+    width:92%;
+}
+
+/*responsive content*/
+
+/*iPad*/
+
+@media only screen and (min-width:700px) and (max-width:959px) {
+    .left-container {
+        display:flex;
+    }
+    .ipad-topleft-container {
+        width:1500px;
+    }
+    
+}
+
+/*Web*/
+    
+@media only screen and (min-width:960px) {
+    .page-container {
+        display:flex;
+    }
+    
+    .web-right-container {
+        padding:15px;
+    }
+    
+}

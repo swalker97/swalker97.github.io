@@ -1,0 +1,119 @@
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+
+* {
+    margin:0 auto;
+}
+
+.page-container {
+    background-color:#7b8ba2;
+    height:100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.top-section {
+    height:80px;
+    background-color: lightyellow;
+    display: flex;
+    width:70%;
+    padding:2%;
+}
+
+img {
+    border-radius:50%;
+    width:18%;
+}
+
+.mid-section {
+    width:70%;
+    height:127px;
+    background-color: aquamarine;
+    margin-bottom:16px;
+    padding:2%;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bottom-section {
+    width:70%;
+}
+
+.Project-1,
+.Project-2,
+.Project-3 {
+    width:307px;
+    height:194px;
+    background-color: cornflowerblue;
+    margin-bottom:41px;
+}
+
+footer {
+    display:flex;
+    background-color:yellow;
+    
+}
+
+/*issues here and general issues with justifying content within*/
+.linkedin,
+.facebook,
+.behance {
+    width:52%;
+    margin:0px 107px 0 px 107px;
+}
+
+
+a:hover {
+    background-color: black; 
+/*    how do we change the color over an image button*/
+}
+
+
+
+
+/*responsive content*/
+
+/*iPad*/
+
+@media only screen and (min-width:700px) and (max-width:959px) { 
+    .top-section {
+        width:768px;
+        height:135px;
+}
+
+.mid-section {
+    width:768px;
+    height:169px;
+    margin-bottom: 59px;
+}
+
+.bottom-section {
+    display:flex;
+    width:80%;
+}
+
+    .Project-1, .Project-2, .Project-3 {
+        margin:0px 15px 30px 0px;
+    }
+}
+
+/*Web*/
+    
+@media only screen and (min-width:960px) {
+    .mid-section {
+        margin-bottom:76px;
+    }
+    .bottom-section {
+        display:flex;
+}
+    .Project-1, .Project-2 {
+        margin-right:48px;
+    }
+    .menu-bar {
+        display:flex;
+    }
+
+
+}
