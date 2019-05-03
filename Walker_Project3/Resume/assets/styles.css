@@ -1,0 +1,142 @@
+* {
+    margin:0 auto;
+    padding:0;
+}
+
+header {
+    background-color: #9FBDDE;
+    color:#746D6D;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header img {
+    height:200px;
+    margin:10px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size:3em;
+}
+
+.name-info {
+    color:white;
+}
+
+a {
+    font-size:.75em;
+    text-decoration: none;
+    color:#746D6D; 
+}
+
+a:hover {
+    text-decoration: none;
+    color:cornflowerblue;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#746D6D;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E6E6E655;
+    color:#746D6D;
+    margin:.5em;
+}
+
+body h2 {
+    border-bottom: .375em solid #756784;
+    padding-bottom:.375em;
+    margin-bottom: .375em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size:1.3em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+.summary-info {
+    margin:1em 0 2em 0;
+}
+
+.summary-info p {
+    font-size:1.2em;
+}
+
+.experience-info, 
+.education-info,
+.interests-info {
+    margin-bottom:2em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size:1em;
+}
+
+.flex h5 {
+    color: #746D6D90;
+    font-size:.8em;
+}
+
+.job1,
+.job2,
+.job2,
+.degree{
+    padding-bottom:1.75em;
+}
+
+.interests-info p {
+    padding-left:.75em;
+}
+
+/*media desktop breakpoint*/
+
+@media only screen and (min-width:960px) {
+    
+    header {
+        display:flex;
+        text-align: right;
+        align-items:center;
+    }
+     
+    
+    body {
+    background-color: #E6E6E6;
+    }
+    
+    .page-container {
+        background-color: white;
+        display: flex;
+        margin:0 auto;
+        padding:.5em;
+        box-shadow:-5px 2px 2px #77777770;
+        width:70%
+    }
+    
+    .left-container {
+        width:50%;
+        margin-left:5em;
+        margin-right:5em;
+    }
+    
+    .flex {
+        padding-bottom:.5em
+    }
+       
+    
+    .right-container {
+        margin:1em 5em 0 0;
+    }
+    
+}

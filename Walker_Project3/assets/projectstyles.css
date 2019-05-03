@@ -1,0 +1,251 @@
+/*font-family: 'Domine', serif;*/
+/*font-family: 'Lato', sans-serif;*/
+
+* {
+    margin:0 auto;
+}
+
+
+.top {
+    background-color: #9FBDDE;
+    display: flex;
+    align-items:center;
+    width:100%;
+    padding: 2%;
+}
+
+#hamburger-menu {
+    background-color: #9FBDDE;
+    margin: 2%;
+}
+
+h1 {
+    color:white;
+    padding-left:2%;
+    font-size:3.5rem;
+    font-family: 'Domine', serif;
+}
+
+.mid-section {
+    text-align: center
+}
+
+.summary {
+    border-top: 3px solid #40364C95;
+    padding:2%;
+    
+}
+
+h2 {
+    color:#756784;
+    font-size:2rem;
+    text-decoration: underline;
+}
+
+.overviewimage h2 {
+    padding-top:2%
+}
+
+
+h3,
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-size:1.125rem;
+    padding:.125em;
+}
+
+p {
+    font-size:.975rem;
+}
+
+/*project 1 specific tags*/
+
+.info1,
+.info5 {
+    padding-top:2%;
+}
+
+
+.info1,
+.info1A,
+.info1B,
+.info3,
+.info3A,
+.info3B,
+.info4,
+.info5,
+.info5B,
+.info6,
+.info7 {
+    margin-bottom: 2%;
+}
+
+.info4Q,
+.info4Imp {
+    padding-top:2%
+}
+
+.info4DImp,
+.info8 {
+    padding-bottom:5%;
+}
+
+.info4B,
+.info4C,
+.info8 {
+    padding-top:5%
+}
+
+/*project 2 specific tags*/
+
+.phase1info,
+.phase2info,
+.final {
+    padding-top:2%;
+}
+
+.digitalsketches {
+    margin-top:2%;
+}
+.img,
+.digitalimg,
+.phase2img,
+.finalimg {
+    margin-top:2%;
+    margin-bottom:2%; 
+}
+
+.img img {
+    border:4px solid #9FBDDE;
+    margin-bottom:1%;
+}
+.digitalimg img {
+    border:4px solid #9FBDDE;
+    margin-bottom:1%;
+}
+.phase2img img {
+    border:4px solid #9FBDDE;
+    margin-bottom:1%;
+}
+.finalimg img {
+    border:4px solid #9FBDDE;
+    margin-bottom:1%;
+}
+
+/*project 3 specific tags*/
+
+.content1,
+.content4a,
+.content5,
+.content7,
+.content11 {
+    padding-top:2%;
+}
+
+.content1,
+.content2,
+.content3,
+.content4,
+.content4a,
+.content5,
+.content6,
+.content7,
+.content8,
+.content9,
+.content10,
+.content11 {
+    padding-bottom:2%;
+}
+
+.content4img img {
+    border:4px solid #9FBDDE;
+    margin-bottom:1%;
+}
+
+.content5img img {
+    border:4px solid #9FBDDE;
+    margin-bottom:1%;
+}
+
+.content6img img {
+    border:4px solid #9FBDDE;
+    margin-bottom:1%;
+}
+
+
+
+/*back to all project styles*/
+
+figcaption {
+    font-size:.5rem;
+    text-align: right;
+    color:#756784;
+    padding-bottom:2em;
+}
+
+
+.left-container p {
+    color:#756784;
+}
+
+.client {
+    padding-top:16px;
+}
+
+.course {
+    padding-bottom:30px;
+}
+
+.web-right-container {
+    padding:2%;
+}
+
+.web-right-container p {
+    font-size:1rem;
+}
+
+img {
+    width:50vh;
+    padding:2%;
+}
+
+/*responsive content*/
+
+/*iPad*/
+
+@media only screen and (min-width:768px) {
+    h1 {
+        width:200%;
+    }
+    
+    .mid-section {
+        display:flex;
+        text-align: left;
+        padding:2%
+    }
+    .ipad-topleft-container {
+        width:200%;
+    }
+    
+}
+
+/*Web*/
+    
+@media only screen and (min-width:960px) {
+    .page-container {
+        display:flex;
+    }
+    
+    .mid-section {
+        display: block;
+    }
+    
+    .web-right-container {
+        width:500%;
+        padding:2%;
+    }
+    
+}

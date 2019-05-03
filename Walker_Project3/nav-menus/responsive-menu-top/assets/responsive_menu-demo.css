@@ -1,0 +1,161 @@
+// Import fonts from Google //
+@import 'https://fonts.googleapis.com/css?family=Roboto|Suez+One';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /*  includes padding and border in the width and height of an object  */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c2340;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #0c2340;
+}
+
+main {
+    background-color:white;
+    height:100vh;
+}
+
+/**************************/
+/**** Top NavBar Two *****/
+/**** Navigation ********/
+/***********************/
+
+nav {
+    text-align: center;
+    width: 100%;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: #333;
+    border-top: .25rem solid #e7cc68;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #e7cc68;
+    text-align: center;
+    padding: .875rem 1rem;
+    text-decoration: none;
+    font-size: .95rem;
+}
+
+.topnav a.icon {
+    color: #f2f2f2;
+    float: right;
+    display: block;
+    font-size: 1.25rem;
+}
+
+.topnav a:hover {
+    background-color: #e7cc68;
+    color: #0c2340;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+}
+
+.main-nav a {
+    display: none;
+}
+
+/*
+.main-nav.responsive {
+    position: relative;
+}
+*/
+
+/*
+.main-nav.responsive a {
+    float: none;
+    display: block;
+}
+*/
+
+/************************/
+/**** Media Queries *****/
+/************************/
+
+@media only screen and (min-width: 601px) {
+
+    /*8888888888888888888888888*8*/
+    /*88888 Top NavBar Two 88888*/
+    /*888888888888888888888888**/
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    .topnav.responsive .icon {
+        display: none;
+    }
+
+    .main-nav a {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+
+    main {
+        width: 60rem;
+        margin: 0 auto;
+        height:100vh;
+        overflow:auto;
+    }
+    
+    /*8888888888888888888888888*8*/
+    /*88888 Top NavBar Two 88888*/
+    /*888888888888888888888888**/
+
+    nav {
+        width: 54rem;
+        margin: 0 auto;
+    }
+
+    .main-nav {
+        margin-right: 0px;
+    }
+
+    .main-nav a {
+        font-size: .95rem;
+    }
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/* Colors */
+
+/* Light grey – #f2f2f2*/
+/* ND Gold – #ae9142*/
+/* Light Gold – #e7cc68*/
+/* Gray – #333 */
